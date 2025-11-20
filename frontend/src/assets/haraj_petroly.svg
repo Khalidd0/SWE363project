@@ -1,0 +1,29 @@
+<svg width="200" height="70" viewBox="0 0 260 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .green { fill: #006C3A; }
+      .gold { fill: #C9A227; }
+      .white { fill: #FFFFFF; }
+      .text { font-family: 'Segoe UI', sans-serif; font-weight: 600; }
+    </style>
+  </defs>
+
+  <!-- KFUPM-style geometric arch -->
+  <path d="M40 65 L40 35 Q40 20 55 15 Q70 10 85 20 Q100 30 100 45 L100 65 Z" class="green"></path>
+
+  <!-- Gold accent line (like KFUPM emblem details) -->
+  <rect x="40" y="58" width="60" height="4" class="gold"></rect>
+
+  <!-- Tag icon inside the arch (Haraj theme) -->
+  <path d="M67 32 L82 32 L92 45 L82 58 L67 58 L57 45 Z" class="white" opacity="0.95"></path>
+
+  <!-- App Name -->
+  <text x="120" y="45" font-size="30" class="text green">
+    Haraj
+  </text>
+
+  <!-- Subtitle -->
+  <text x="120" y="65" font-size="20" class="text gold">
+    Petroly
+  </text>
+</svg>
